@@ -1,2 +1,2 @@
-SELECT SUM(Charge) AS Sum FROM STREAM WHERE Year(StreamDate) = 2018;
+SELECT SUM(Charge) FROM STREAM WHERE Year(StreamDate) = 2018;
 
