@@ -1,0 +1,5 @@
+DELETE STREAM.*
+	FROM STREAM 
+	JOIN CUSTOMER
+		USING( CustomerId )
+	WHERE CUSTOMER.Country = 'China' AND STREAM.Charge <= 5.5;
